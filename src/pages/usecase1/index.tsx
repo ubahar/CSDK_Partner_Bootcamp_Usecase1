@@ -51,7 +51,7 @@ const PageContent = () => {
   return (
     <SisenseContextProvider
       url="https://guy.sisensepoc.com" // replace with Sisense env URL
-      token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjYzNGViMTkyNDA5NTIwMDJkYzkxZGRmIiwiYXBpU2VjcmV0IjoiMjE3MWMyYTYtYzk5OS03NGVhLTRjNTItNmQyYjhlNzM5YWI5IiwiYWxsb3dlZFRlbmFudHMiOlsiNjIyMGU2ZDg2MzMwZGEwMDFhZmVjMmEyIl0sInRlbmFudElkIjoiNjIyMGU2ZDg2MzMwZGEwMDFhZmVjMmEyIn0.P0D02y-0cB7ZvOE8BCcpb7b75Rk2ohdbBfKB-2P1ekA"
+      token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjIyMGU2ZDg2MzMwZGEwMDFhZmVjMjk1IiwiYXBpU2VjcmV0IjoiM2E4MmQzZjAtMWI4OS0yMzJmLWY3MDUtYjFiZDU2NjU5OWY5IiwiYWxsb3dlZFRlbmFudHMiOlsiNjIyMGU2ZDg2MzMwZGEwMDFhZmVjMmEyIl0sInRlbmFudElkIjoiNjIyMGU2ZDg2MzMwZGEwMDFhZmVjMmEyIn0.g_W6c8ZJ749_BeNav75SYbk1qJYpRtWbPeOmcm6JBdk"
       appConfig={{
         queryCacheConfig: { enabled: true },
       }}
